@@ -55,7 +55,6 @@ PRODUCT_PACKAGES += \
     libedgetpu_dba.google \
     com.google.edgetpu_app_service-V3-ndk \
     com.google.edgetpu_vendor_service-V2-ndk \
-    libhbmsvmanager_jni \
     AndroidMediaShell \
     CastAuthPrebuilt \
     DeviceIntelligenceNetworkPrebuilt-U.32_V.7_playstore_astrea_20240725.00_RC01 \
@@ -70,7 +69,6 @@ PRODUCT_PACKAGES += \
     UsoniaPrebuilt \
     ConnectivityThermalPowerManager \
     DockSetup \
-    HbmSVManager \
     UwbVendorService \
     grilservice \
     libhwinfo \
@@ -80,9 +78,6 @@ PRODUCT_PACKAGES += \
     google-ril \
     vendor.google.edgetpu_app_service@1.0-service.xml \
     vendor.google.edgetpu_app_service@1.0-service
-
-PRODUCT_PACKAGES += \
-    system_ext_priv-app_HbmSVManager_lib_arm64_libhbmsvmanager_jni_so
 
 PRODUCT_COPY_FILES += \
     vendor/google/tangorpro/proprietary/vendor/etc/Khronos/OpenCL/vendors/ARM.icd:$(TARGET_COPY_OUT_VENDOR)/etc/Khronos/OpenCL/vendors/ARM.icd \
